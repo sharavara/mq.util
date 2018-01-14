@@ -1,0 +1,5 @@
+/settings.dat
+/bin/*
+/lib/com.ibm.*
+/lib/jms.jar
+/lib/fscontext.jar
