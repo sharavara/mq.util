@@ -30,7 +30,7 @@ public class MQProvider {
 			MQEnvironment.userID = config.getProperty("MQuserID");
 		if (!config.getProperty("MQpassword").equals(""))
 			MQEnvironment.password = config.getProperty("MQpassword");
-		MQEnvironment.disableTracing();
+		//MQEnvironment.disableTracing();
 		// MQEnvironment.traceSystemProperties();
 		MQException.log = null;
 		qMgr = new MQQueueManager(config.getProperty("MQmanager"));
