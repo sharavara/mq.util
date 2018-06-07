@@ -1,6 +1,6 @@
-.settings/*
 /settings.dat
 /bin/*
 /lib/*
 /.project
 /.classpath
+/.settings/
