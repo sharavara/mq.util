@@ -2,3 +2,5 @@
 /settings.dat
 /bin/*
 /lib/*
+/.project
+/.classpath
